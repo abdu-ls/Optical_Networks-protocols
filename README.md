@@ -1,4 +1,4 @@
-************ How to run *****************
+************ How to run C1 Project 16*****************
 
 1. Run floodlight
 2. Run a topology on mininet: sudo mn --topo linear,3 --controller=remote,ip=127.0.0.1,port=6653 --switch ovsk,protocols=OpenFlow10
@@ -11,3 +11,12 @@
     sh ovs-ofctl dump-flows s3
 
 ping test on mininet: h1 ping h3
+
+
+************ How to run C3 Project 3*****************
+
+1. Open Jupyter Notebook: https://jupyter.org/try-jupyter/lab/
+2. Select the first tile; Python (Pyodide)
+3. Copy the code from pulse_broadening-fiberlenght.py and paste a cell.
+4. Click on the RUN button to see the results.
+
